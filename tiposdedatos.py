@@ -56,3 +56,23 @@ pulgadas = float(input('Ingrese cantidad de pulgadas: '))
 metros = 1609.344 * millas + 0.3048 * pies + 0.0254 * pulgadas
 
 print('La logitud es de ', metros, 'metros')
+
+#Escribe un programa que muestre los numero enteros desde 1 hasta n
+
+n = int(input('Ingrese un numero entero'))
+suma = n*(n + 1) / 2
+
+print('Los números enteros entre 1 y n son ', suma)
+
+
+#Escriba un programa que caule su imc pidiendole al usuario su peso y altura en mts
+print('Bienvenido!')
+nombre = input('Ingresa tu nombre: ')
+peso = float(input('Ingresa tu peso corporal en Kg: ' ))
+
+altura = float(input('Ingresa tu altura en mts: '))
+
+imc = peso / altura**2
+
+resultado = f"Hola , {nombre} , tu indice de masa corporal es ,{(round(imc, 2))}"
+print(resultado)
