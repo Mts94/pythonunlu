@@ -76,3 +76,10 @@ imc = peso / altura**2
 
 resultado = f"Hola , {nombre} , tu indice de masa corporal es ,{(round(imc, 2))}"
 print(resultado)
+
+
+a = 5
+b = 10
+a,b = b,a
+print(a)
+print(b)
